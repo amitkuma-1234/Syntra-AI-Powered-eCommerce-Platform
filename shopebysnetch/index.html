@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Syntra - India's most innovative shopping destination. Discover millions of products with fast delivery, unbeatable prices, and AI-powered shopping.">
+  <meta name="keywords" content="online shopping, electronics, fashion, deals, Syntra">
+  <meta name="author" content="Syntra">
+  <meta name="theme-color" content="#030712">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Syntra - Smart Shopping, Smarter Deals">
+  <meta property="og:description" content="India's most innovative AI-powered shopping platform">
+  <meta property="og:type" content="website">
+
+  <title>Syntra — Smart Shopping, Smarter Deals</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header Area -->
+  <div id="header-area"></div>
+
+  <!-- Main Content -->
+  <main id="app">
+    <!-- Loading skeleton while JS loads -->
+    <div class="container" style="padding:60px 24px;text-align:center">
+      <div style="font-size:3rem;margin-bottom:16px;animation:float 2s ease-in-out infinite">🛒</div>
+      <h2 class="text-gradient">Loading Syntra...</h2>
+      <p style="color:var(--text-muted);margin-top:8px">Preparing your shopping experience</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" onclick="App.navigate('/')" style="cursor:pointer">SYNTRA<span>.in</span></div>
+          <p class="footer-desc">India's most innovative shopping destination. Discover millions of products with fast delivery and unbeatable prices.</p>
+          <div class="footer-social">
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="Instagram">📸</a>
+            <a href="#" title="YouTube">🎬</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="#/products">All Products</a>
+          <a href="#/deals">Deals & Offers</a>
+          <a href="#/products?category=electronics">Electronics</a>
+          <a href="#/products?category=fashion">Fashion</a>
+          <a href="#/products?category=home">Home & Kitchen</a>
+        </div>
+        <div class="footer-col">
+          <h4>Account</h4>
+          <a href="#/account">My Account</a>
+          <a href="#/orders">My Orders</a>
+          <a href="#/wishlist">Wishlist</a>
+          <a href="#/cart">Shopping Cart</a>
+          <a href="#/seller">Sell on Syntra</a>
+        </div>
+        <div class="footer-col">
+          <h4>Help & Support</h4>
+          <a href="#" onclick="Chatbot.toggle();return false">AI Chat Support</a>
+          <a href="#">Shipping Information</a>
+          <a href="#">Return Policy</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Syntra. Built with ❤️ and AI. All rights reserved.</span>
+        <div class="footer-payments">💳 Visa • Mastercard • RuPay • UPI • Net Banking • COD</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scroll-top" title="Back to top">↑</button>
+
+  <!-- Scripts (order matters) -->
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
