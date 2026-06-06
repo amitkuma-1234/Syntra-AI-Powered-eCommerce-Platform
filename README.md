@@ -1,29 +1,65 @@
-This is a Next.js project bootstrapped with create-next-app.
+# Syntra – AI-Powered eCommerce Platform
 
-Getting Started
-First, run the development server:
+A modern, AI-powered eCommerce platform built with **Next.js**, offering a seamless shopping experience with intelligent product recommendations and a clean, responsive UI.
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-Open http://localhost:3000 with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying app/page.js. The page auto-updates as you edit the file.
+- AI-powered product recommendations
+- Modern and responsive UI/UX
+- Product listing, search, and filtering
+- Shopping cart and checkout flow
+- User authentication & session management
+- Fast performance with Next.js SSR/SSG
+- Optimized fonts using `next/font` (Geist)
 
-This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
+## 🛠️ Tech Stack
 
-Learn More
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – React framework with SSR/SSG
+- **JavaScript** – Core application logic
+- **CSS** – Custom styling & responsive design
+- **HTML** – Markup structure
+- **Vercel** – Deployment platform
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+## 📁 Project Structure
+Syntra-AI-Powered-eCommerce-Platform/
+│
+├── shopebysnetch/       # Main application source
+├── .gitignore
+└── README.md
 
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+## ▶️ Getting Started
 
-Check out our Next.js deployment documentation for more details.
+1. Clone the repository:
+```bash
+   git clone https://github.com/amitkuma-1234/Syntra-AI-Powered-eCommerce-Platform.git
+   cd Syntra-AI-Powered-eCommerce-Platform/shopebysnetch
+```
+
+2. Install dependencies:
+```bash
+   npm install
+```
+
+3. Run the development server:
+```bash
+   npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🌐 Deployment
+
+Easily deploy on **Vercel**:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+## 📌 Use Cases
+
+- Online retail store
+- AI-driven product discovery
+- Multi-category eCommerce solution
+
+## 🙋‍♂️ Author
+
+**Amit Kumar**  
+[GitHub](https://github.com/amitkuma-1234)
